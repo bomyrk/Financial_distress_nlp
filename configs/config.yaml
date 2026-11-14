@@ -1,0 +1,5 @@
+data:
+  out_dir: "data/samples"
+  n_samples: 10000
+  dataset_name: "JanosAudran/financial-reports-sec"
+  revision: "refs/convert/parquet"   
