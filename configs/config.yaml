@@ -1,5 +1,12 @@
 data:
   out_dir: "data/samples"
-  n_samples: 10000
+  output_name: "financial_reports_firm_sample.parquet"
   dataset_name: "JanosAudran/financial-reports-sec"
-  revision: "refs/convert/parquet"   
+  revision: "main"
+  train_shards: [0, 3, 6, 9]
+  validation_shards: [0, 5]
+  test_shards: [1, 7]
+  firms_per_shard:
+    train: 12
+    validation: 8
+    test: 10
