@@ -1,0 +1,12 @@
+/NLP/
+/data/samples/financial_reports_firm_sample.parquet
+/data/processed/filing_level.parquet
+__pycache__/
+*.pyc
+/notebooks/06_full_pipeline_with_ci.ipynb
+/NLP.rar
+/reports/Financial Distress Prediction.docx
+/notebooks/04_colab_full_pipeline.ipynb
+/notebooks/05_full_pipeline.ipynb
+/notebooks/.ipynb_checkpoints/
+/.ipynb_checkpoints/
